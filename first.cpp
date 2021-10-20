@@ -58,8 +58,8 @@ int main(){
       Real_t num = distribution1(generator);
       Real_t p1 = distribution2(generator);
       Real_t p2 = distribution2(generator);
-      printf("dsin(%f)=%f", num, dsin_fun(num));
-      printf("dex1(%f,%f)=%f", p1,p2, dex1_fun(p1,p2));
+      printf("dsin(%f)=%f\n", num, dsin_fun(num));
+      printf("dex1(%f,%f)=%f\n", p1,p2, dex1_fun(p1,p2));
   }
 }
 
