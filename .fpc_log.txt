@@ -1,0 +1,2 @@
+['/home/xinyi/llvm/llvm12/bin/clang++', '-Xclang', '-load', '-Xclang', '/home/xinyi/FPChecker/FPChecker_install/bin/../cpu_checking/../lib/libfpchecker_cpu.so', '-include', '/home/xinyi/FPChecker/FPChecker_install/bin/../cpu_checking/../src/Runtime_cpu.h', '-g', 'lorenz.o']
+Failed: /home/xinyi/FPChecker/FPChecker_install/bin/../cpu_checking/clang_fpchecker.py
